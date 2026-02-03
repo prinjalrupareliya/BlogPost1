@@ -1,0 +1,7 @@
+.footer-class{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding:30px;
+    background: rgb(125, 106, 160);
+}

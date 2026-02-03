@@ -1,0 +1,68 @@
+/* Overlay for modal */
+.profile-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal box */
+.profile-modal {
+  background: #fff;
+  padding: 25px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+/* Modal title */
+.profile-modal h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Input fields */
+.profile-modal input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Select field */
+.profile-modal select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button group */
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Buttons */
+.btn {
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Cancel button */
+.btn.cancel {
+  background: #ccc;
+  color: #000;
+}
+
+/* Save button */
+.btn.save {
+  background: #896fb3;
+  color: white;
+}

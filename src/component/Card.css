@@ -1,0 +1,127 @@
+.card {
+  width: 400px;
+  min-height: 520px;
+  padding: 20px;
+  margin: 20px;
+  background: #c5b8dd;
+  color: #000;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Image */
+.img-icon {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.img-icon:hover {
+  transform: scale(1.05);
+}
+
+/* Title */
+.card-title-class h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  padding-left: 5px;
+  text-align: left;
+}
+
+/* Description */
+.card-desc-class p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 0 20px;
+  color: #0c0c0c;
+  text-align: left;
+  white-space: normal;    
+}
+
+/* Button container */
+.div2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: auto;        
+}
+
+/* Common button */
+.btn1 {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+/* Edit button */
+.btn1:first-child {
+  border: 2px solid #272d47;
+  color: #272d47;
+}
+
+.btn1:first-child:hover {
+  background: #272d47;
+  color: #fff;
+}
+
+/* Delete button */
+.btn1:last-child {
+  border: 2px solid #ff5252;
+  color: #ff5252;
+}
+
+.btn1:last-child:hover {
+  background: #ff5252;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(221, 208, 208, 0.3);
+}
+
+.container-home {
+  min-height: 100vh;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* LIGHT MODE */
+.light {
+  background-color: #e2ccec;
+  color: #111;
+}
+
+.light h1 {
+  color: #222;
+}
+
+/* DARK MODE */
+.dark {
+  background-color: #41294d;
+  color: #f8fafc;
+}
+
+.dark h1 {
+  color: #e5e7eb;
+}
+
+/* Card override example */
+.dark .card {
+  background-color: #310655;
+  color: #f1f5f9;
+}
+
